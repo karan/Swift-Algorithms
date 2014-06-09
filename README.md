@@ -18,3 +18,7 @@ Each implementation is done in Xcode playground. To view code, either:
 1. [Insertion Sort](https://github.com/karan/Swift-Algorithms/tree/master/InsertionSort.playground)
 
 2. [Selection Sort](https://github.com/karan/Swift-Algorithms/tree/master/SelectionSort.playground)
+
+3. [Bubble Sort](https://github.com/karan/Swift-Algorithms/tree/master/BubbleSort.playground)
+
+4. [Quick Sort](https://github.com/karan/Swift-Algorithms/tree/master/QuickSort.playground)
