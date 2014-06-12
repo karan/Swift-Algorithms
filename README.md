@@ -15,14 +15,16 @@ Each implementation is done in Xcode playground. To view code, either:
 
 ### Sorting
 
-[Insertion Sort](https://github.com/karan/Swift-Algorithms/tree/master/InsertionSort.playground)
+[Insertion Sort](https://github.com/karan/Swift-Algorithms/tree/master/sorts/InsertionSort.playground)
 
-[Selection Sort](https://github.com/karan/Swift-Algorithms/tree/master/SelectionSort.playground)
+[Selection Sort](https://github.com/karan/Swift-Algorithms/tree/master/sorts/SelectionSort.playground)
 
-[Bubble Sort](https://github.com/karan/Swift-Algorithms/tree/master/BubbleSort.playground)
+[Bubble Sort](https://github.com/karan/Swift-Algorithms/tree/master/sorts/BubbleSort.playground)
 
-[Quick Sort](https://github.com/karan/Swift-Algorithms/tree/master/QuickSort.playground)
+[Quick Sort](https://github.com/karan/Swift-Algorithms/tree/master/sorts/QuickSort.playground)
 
 ## Data Structures
 
-[Stack](https://github.com/karan/Swift-Algorithms/tree/master/Stack.playground)
+[Stack](https://github.com/karan/Swift-Algorithms/tree/master/data_structures/Stack.playground)
+
+[Queue](https://github.com/karan/Swift-Algorithms/tree/master/data_structures/Queue.playground)
