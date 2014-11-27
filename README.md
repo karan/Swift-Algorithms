@@ -25,10 +25,12 @@ Each implementation is done in Xcode playground. To view code, either:
 
 [Merge Sort](https://github.com/karan/Swift-Algorithms/tree/master/sorts/MergeSort.playground)
 
-[Sieve of Eratosthenes](https://github.com/karan/Swift-Algorithms/tree/master/other/SieveOfEratosthenes.playground)
-
 ## Data Structures
 
 [Stack](https://github.com/karan/Swift-Algorithms/tree/master/data_structures/Stack.playground)
 
 [Queue](https://github.com/karan/Swift-Algorithms/tree/master/data_structures/Queue.playground)
+
+## Prime Numbers
+
+[Sieve of Eratosthenes](https://github.com/karan/Swift-Algorithms/tree/master/other/SieveOfEratosthenes.playground)
