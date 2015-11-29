@@ -3,7 +3,7 @@
 
 import Cocoa
 
-func isPrime(var target: Int) -> Bool
+func isPrime(target: Int) -> Bool
 {
     if target == 0 || target == 1
     {
@@ -33,5 +33,5 @@ var randomNumbers = [3, 10, 22, 33, 9, 10, 7, 1, 0, 123, 71, 5, 13]
 
 for i in randomNumbers
 {
-    println("\(i) is prime?: \(isPrime(i))")
+    print("\(i) is prime?: \(isPrime(i))")
 }

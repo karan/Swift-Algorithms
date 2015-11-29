@@ -3,13 +3,13 @@
 
 import Cocoa
 
-func mergeSort(inout arr: [Int], var lowIndex: Int, var highIndex: Int)
+func mergeSort(inout arr: [Int], lowIndex: Int, highIndex: Int)
 {
     if lowIndex < highIndex
     {
-        var midIndex = (lowIndex + highIndex) / 2
-        mergeSort(&arr, lowIndex, midIndex)
-        mergeSort(&arr, midIndex+1, highIndex)
+        let midIndex = (lowIndex + highIndex) / 2
+        mergeSort(&arr, lowIndex: lowIndex, highIndex: midIndex)
+        mergeSort(&arr, lowIndex: midIndex+1, highIndex: highIndex)
         
         var helper: [Int] = [Int](count: arr.count, repeatedValue: 0)
         
@@ -37,7 +37,7 @@ func mergeSort(inout arr: [Int], var lowIndex: Int, var highIndex: Int)
             ++cur
         }
         
-        var remaining = midIndex - left
+        let remaining = midIndex - left
         for var i = 0; i <= remaining; ++i
         {
             arr[cur + i] = helper[left + i]
@@ -48,10 +48,10 @@ func mergeSort(inout arr: [Int], var lowIndex: Int, var highIndex: Int)
 /* Begin Program */
 var randomNumbers: [Int] = [ 4, 11, 3, 5, 63, 3, 2000, 89, 2, 36, 22, 67, 12,1, 13, -5, 0]
 
-println("Before Sort: ")
-println(randomNumbers)
+print("Before Sort: ")
+print(randomNumbers)
 
-mergeSort(&randomNumbers, 0, randomNumbers.count-1)
+mergeSort(&randomNumbers, lowIndex: 0, highIndex: randomNumbers.count-1)
 
-println("After Sort: ")
-println(randomNumbers)
+print("After Sort: ")
+print(randomNumbers)

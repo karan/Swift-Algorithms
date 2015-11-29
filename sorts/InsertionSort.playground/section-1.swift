@@ -3,11 +3,11 @@
 
 var randomNumbers = [42, 12, 88, 62, 63, 56, 1, 77, 88, 97, 97, 20, 45, 91, 62, 2, 15, 31, 59, 5]
 
-func insertionSort(nums: Int[]) {
+func insertionSort(var nums: [Int]) {
     
-    for i in 1..nums.count {
+    for i in 1..<nums.count {
         
-        var x = nums[i]
+        let x = nums[i]
         
         var j = i
         
@@ -28,4 +28,4 @@ func insertionSort(nums: Int[]) {
 // pass by reference
 insertionSort(randomNumbers)
 
-println(randomNumbers)
+print(randomNumbers)

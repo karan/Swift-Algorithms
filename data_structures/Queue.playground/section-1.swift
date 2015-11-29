@@ -2,7 +2,7 @@
 // Piper Chester
 
 struct Queue<T> {
-    var elements = T[]()
+    var elements = [T]()
 
     mutating func enqueue(element: T){
         elements.insert(element, atIndex: 0)
