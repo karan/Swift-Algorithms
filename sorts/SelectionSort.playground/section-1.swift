@@ -3,7 +3,7 @@
 
 var randomNumbers = [42, 12, 88, 62, 63, 56, 1, 77, 88, 97, 97, 20, 45, 91, 62, 2, 15, 31, 59, 5]
 
-func selectionSort(nums: Int[]) {
+func selectionSort(var nums: [Int]) {
     
     var i:Int, j:Int, first:Int, temp:Int
     
@@ -29,4 +29,4 @@ func selectionSort(nums: Int[]) {
 
 selectionSort(randomNumbers)
 
-println(randomNumbers)
+print(randomNumbers)
