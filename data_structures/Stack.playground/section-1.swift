@@ -3,7 +3,7 @@
 
 struct Stack<T> {
     
-    var elems = T[]()
+    var elems = [T]()
     
     mutating func push(elem: T) {
         elems.append(elem)
@@ -32,7 +32,7 @@ int_stack.push(-11)
 
 int_stack
 
-println(int_stack.peek())
+print(int_stack.peek())
 
 int_stack
 
